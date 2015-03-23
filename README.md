@@ -98,3 +98,7 @@ $ npm test
 ```
 
 *Note: On Windows use `SET` instead of `export` for setting the `REBILLY_TEST_API_KEY` environment variable.*
+
+## Author
+
+Originally by [Pedro Sampaio](http://oitozero.com). Development was sponsored by [Greenlamp](http://greenlamp.com).
