@@ -23,8 +23,10 @@
   },
   "dependencies": {
     "bluebird": "^2.9.6",
-    "qs": "^2.3.3",
-    "lodash": "^3.1.0"
+    "lodash": "^3.1.0",
+    "moment": "^2.9.0",
+    "nonce": "^1.0.3",
+    "qs": "^2.3.3"
   },
   "scripts": {
     "test": "mocha"
