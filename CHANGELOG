@@ -1,2 +1,6 @@
 0.0.1 March 21, 2014
   - Initial release
+
+0.0.2 March 28, 2014
+  - Adding setEnvironment
+  - Adding rebilly.signature.generate('apiUser', 'apiKey')
