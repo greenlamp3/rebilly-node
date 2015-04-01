@@ -62,6 +62,7 @@ rebilly.customers.create({
   * [`cancelSubscription(customerId, subscriptionId, [, params])`](https://www.rebilly.com/api/documentation/v2.1/#subscriptions-v2_1-Cancel)
   * [`listSubscriptions(params)`](https://www.rebilly.com/api/documentation/v2.1/#subscriptions-v2_1-List)
   * [`createCard(customerId[, params])`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Create)
+  * [`createCardWithID(customerId, cardId[, params])`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#paymentCard-Create with given id)
   * [`listCards(customerId)`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-List)
   * [`retrieveCard(customerId, cardId)`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Retrieve)
   * [`authorize(customerId, cardId[, params])`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Authorization)
@@ -81,6 +82,8 @@ rebilly.customers.create({
   * [`createWithID(contactId, params)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Create with specified ID)
   * [`list()`](https://www.rebilly.com/api/documentation/v2.1/#contact-List)  
   * [`retrieve(contactId)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Retrieve) 
+* signature
+  * [`generate(apiUser, apiKey)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#introduction-Authentication)
   
   
 ## Configuration
