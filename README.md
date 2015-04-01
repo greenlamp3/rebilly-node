@@ -81,8 +81,8 @@ rebilly.customers.create({
   * [`create(params)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Create)
   * [`createWithID(contactId, params)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Create with specified ID)
   * [`list()`](https://www.rebilly.com/api/documentation/v2.1/#contact-List)  
-  * [`retrieve(contactId)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Retrieve) 
-* signature
+  * [`retrieve(contactId)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Retrieve)  
+ * signature
   * [`generate(apiUser, apiKey)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#introduction-Authentication)
   
   
