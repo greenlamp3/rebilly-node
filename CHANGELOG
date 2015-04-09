@@ -7,3 +7,7 @@
 
 0.0.3 March 30, 2014
   - Adding rebilly.customers.createWithID
+
+0.0.4 April 9, 2014
+  - Adding rebilly.invoices
+  - Adding rebilly.customers.listInvoices

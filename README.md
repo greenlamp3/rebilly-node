@@ -66,6 +66,7 @@ rebilly.customers.create({
   * [`retrieveCard(customerId, cardId)`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Retrieve)
   * [`authorize(customerId, cardId[, params])`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Authorization)
   * [`deactivate(customerId, cardId)`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Deactivate)
+  * [`listInvoices(customerId)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#customer-invoice-Get)
  * plans
   * [`create(params)`](https://www.rebilly.com/api/documentation/v2.1/#plans-Create)
   * [`list([params])`](https://www.rebilly.com/api/documentation/v2.1/#plans-List)
@@ -80,7 +81,17 @@ rebilly.customers.create({
   * [`create(params)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Create)
   * [`createWithID(contactId, params)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Create with specified ID)
   * [`list()`](https://www.rebilly.com/api/documentation/v2.1/#contact-List)  
-  * [`retrieve(contactId)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Retrieve) 
+  * [`retrieve(contactId)`](https://www.rebilly.com/api/documentation/v2.1/#contact-Retrieve)  
+  
+* invoices
+    * [`create(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Create)
+    * [`modify|update(invoiceId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Modify)
+    * [`retrieve(invoiceId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Retrieve)
+    * [`void(invoiceId)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Void)
+    * [`abandon(invoiceId)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Abandon)
+    * [`issue(invoiceId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Issue)
+    * [`createItem(invoiceId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-item-Create)
+    * [`retrieveItems(invoiceId)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-item-Retrieve)
   
   
 ## Configuration
