@@ -68,6 +68,7 @@ rebilly.customers.create({
   * [`authorize(customerId, cardId[, params])`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Authorization)
   * [`deactivate(customerId, cardId)`](https://www.rebilly.com/api/documentation/v2.1/#paymentCard-Deactivate)
   * [`listInvoices(customerId)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#customer-invoice-Get)
+  * [`listTransactions(customerId[, params])`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#transaction-Retrieve Per Customer)
  * plans
   * [`create(params)`](https://www.rebilly.com/api/documentation/v2.1/#plans-Create)
   * [`list([params])`](https://www.rebilly.com/api/documentation/v2.1/#plans-List)

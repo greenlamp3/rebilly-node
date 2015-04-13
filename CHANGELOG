@@ -11,3 +11,6 @@
 0.0.4 April 9, 2014
   - Adding rebilly.invoices
   - Adding rebilly.customers.listInvoices
+
+0.0.5 April 13, 2014
+  - Adding rebilly.customers.listTransactions
