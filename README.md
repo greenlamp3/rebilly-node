@@ -95,8 +95,11 @@ rebilly.customers.create({
   * [`issue(invoiceId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-Issue)
   * [`createItem(invoiceId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-item-Create)
   * [`retrieveItems(invoiceId)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#invoice-item-Retrieve)
-  
-  
+ * payments
+  * [`create(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#payments-Create)
+  * [`retrieve(paymentId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#payments-Retrieve)
+  * [`list(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#payments-List)
+
 ## Configuration
 
  * `rebilly.setApiKey(' your secret api key ');`

@@ -1,19 +1,22 @@
-0.0.1 March 21, 2014
+0.0.1 March 21, 2015
   - Initial release
 
-0.0.2 March 28, 2014
+0.0.2 March 28, 2015
   - Adding setEnvironment
   - Adding rebilly.signature.generate('apiUser', 'apiKey')
 
-0.0.3 March 30, 2014
+0.0.3 March 30, 2015
   - Adding rebilly.customers.createWithID
 
-0.0.4 April 9, 2014
+0.0.4 April 9, 2015
   - Adding rebilly.invoices
   - Adding rebilly.customers.listInvoices
 
-0.0.5 April 13, 2014
+0.0.5 April 13, 2015
   - Adding rebilly.customers.listTransactions
 
-0.0.6 April 13, 2014
+0.0.6 April 13, 2015
   - Fixing rebilly.invoices.void|abandon|issue (replace PUT with POST)
+
+0.0.6 January 28, 2016
+  - Adding rebilly.payments
