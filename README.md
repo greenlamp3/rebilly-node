@@ -99,6 +99,11 @@ rebilly.customers.create({
   * [`create(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#payments-Create)
   * [`retrieve(paymentId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#payments-Retrieve)
   * [`list(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#payments-List)
+ * layouts
+  * [`create(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#layout-Create)
+  * [`update(layoutId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#layout-UpdateLayout)
+  * [`retrieve(layoutId, params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#layout-RetrieveLayout)
+  * [`list(params)`](https://www.rebilly.com/sandbox/api/documentation/v2.1/#layout-RetrieveLayouts)
 
 ## Configuration
 

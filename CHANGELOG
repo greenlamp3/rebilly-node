@@ -18,5 +18,8 @@
 0.0.6 April 13, 2015
   - Fixing rebilly.invoices.void|abandon|issue (replace PUT with POST)
 
-0.0.6 January 28, 2016
+0.0.7 January 28, 2016
   - Adding rebilly.payments
+
+0.0.8 March 10, 2016
+  - Adding rebilly.layouts
